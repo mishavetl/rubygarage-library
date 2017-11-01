@@ -1,0 +1,185 @@
+{
+  "@books": [
+    {
+      "@title": "Foo",
+      "@author": 1,
+      "@id": 1,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Bar",
+      "@author": 2,
+      "@id": 2,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Baz",
+      "@author": 3,
+      "@id": 3,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Qux",
+      "@author": 3,
+      "@id": 4,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Foo",
+      "@author": 1,
+      "@id": 5,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Bar",
+      "@author": 2,
+      "@id": 6,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Baz",
+      "@author": 3,
+      "@id": 7,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Qux",
+      "@author": 3,
+      "@id": 8,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Foo",
+      "@author": 1,
+      "@id": 9,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Bar",
+      "@author": 2,
+      "@id": 10,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Baz",
+      "@author": 3,
+      "@id": 11,
+      "@class_id": "Book"
+    },
+    {
+      "@title": "Qux",
+      "@author": 3,
+      "@id": 12,
+      "@class_id": "Book"
+    }
+  ],
+  "@orders": [
+    {
+      "@book": 1,
+      "@reader": 1,
+      "@date": "22.11.2017",
+      "@id": 1,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 2,
+      "@reader": 2,
+      "@date": "22.11.2018",
+      "@id": 2,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 3,
+      "@reader": 2,
+      "@date": "22.11.2019",
+      "@id": 3,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 3,
+      "@reader": 1,
+      "@date": "22.11.2020",
+      "@id": 4,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 4,
+      "@reader": 1,
+      "@date": "22.11.2017",
+      "@id": 5,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 2,
+      "@reader": 2,
+      "@date": "22.11.2018",
+      "@id": 6,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 5,
+      "@reader": 2,
+      "@date": "22.11.2019",
+      "@id": 7,
+      "@class_id": "Order"
+    },
+    {
+      "@book": 6,
+      "@reader": 3,
+      "@date": "22.11.2020",
+      "@id": 8,
+      "@class_id": "Order"
+    }
+  ],
+  "@readers": [
+    {
+      "@name": "Mike",
+      "@email": "Vietl",
+      "@city": "undefined",
+      "@street": "undefined",
+      "@house": "undefined",
+      "@id": 1,
+      "@class_id": "Reader"
+    },
+    {
+      "@name": "Mike 1",
+      "@email": "Vietl 1",
+      "@city": "undefined",
+      "@street": "undefined",
+      "@house": "undefined",
+      "@id": 2,
+      "@class_id": "Reader"
+    },
+    {
+      "@name": "Mike 2",
+      "@email": "Vietl 2",
+      "@city": "undefined",
+      "@street": "undefined",
+      "@house": "undefined",
+      "@id": 3,
+      "@class_id": "Reader"
+    }
+  ],
+  "@authors": [
+    {
+      "@name": "Foo Bar",
+      "@biography": "Born and not died 1",
+      "@id": 1,
+      "@class_id": "Author"
+    },
+    {
+      "@name": "Foo Bar Baz",
+      "@biography": "Born and not died 2",
+      "@id": 2,
+      "@class_id": "Author"
+    },
+    {
+      "@name": "Foo Bar Baz Qux",
+      "@biography": "Born and not died 3",
+      "@id": 3,
+      "@class_id": "Author"
+    }
+  ],
+  "@id": 1,
+  "@class_id": "Library"
+}
