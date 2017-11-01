@@ -46,7 +46,7 @@ class Controller
   end
 
   def what_is_the_most_popular_book()
-    [get_sorted_books.last]
+    [array_if_nil(get_sorted_books).last]
   end
 
   def how_many_ordered_one_of_three_most_popular_books()
